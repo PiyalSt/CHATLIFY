@@ -1,16 +1,119 @@
-# React + Vite
+# Chatlify 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern real-time chat application built with React and modern web technologies. Chatlify is designed to provide a fast, responsive, and user-friendly messaging experience with a clean and intuitive interface.
 
-Currently, two official plugins are available:
+![Chatlify Banner](./public/banner.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔐 User Authentication
+- 💬 Real-Time Messaging
+- 👤 User Profiles
+- 📱 Fully Responsive Design
+- 🎨 Modern UI/UX
+- 🔍 User Search
+- 🌙 Dark Mode Support
+- ⚡ Fast Performance
+- 🔔 Real-Time Notifications
+- 📂 Clean Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
+- React.js
+- React Router
+- Tailwind CSS
+- Axios
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend (Planned)
+- Node.js
+- Express.js
+- MongoDB
+- Socket.IO
+- JWT Authentication
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/
+├── components/
+├── pages/
+├── layouts/
+├── routes/
+├── hooks/
+├── services/
+├── utils/
+├── context/
+├── styles/
+└── App.jsx
+```
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/chatlify.git
+```
+
+### Navigate to Project Directory
+
+```bash
+cd chatlify
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+## 🎯 Project Goals
+
+- Build a modern messaging platform
+- Learn scalable React architecture
+- Implement real-time communication
+- Create a clean and professional UI
+- Follow industry-standard development practices
+
+## 📸 Screenshots
+
+Add project screenshots here after completing the UI.
+
+## 📈 Roadmap
+
+- [x] Project Setup
+- [x] Design System
+- [ ] Authentication
+- [ ] User Dashboard
+- [ ] Friend System
+- [ ] Real-Time Chat
+- [ ] Group Chat
+- [ ] Voice Messages
+- [ ] Notifications
+- [ ] Dark Mode
+- [ ] Deployment
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Developed with ❤️ by Piyal
+
+---
+
+⭐ If you like this project, consider giving it a star.
