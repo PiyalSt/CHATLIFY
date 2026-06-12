@@ -37,17 +37,21 @@ A modern real-time chat application built with React and modern web technologies
 
 ```bash
 src/
+├── App.jsx
 ├── assets/
 ├── components/
-├── pages/
-├── layouts/
-├── routes/
-├── hooks/
-├── services/
-├── utils/
-├── context/
-├── styles/
-└── App.jsx
+│   ├── ChatContainer.jsx
+│   ├── RightSidebar.jsx
+│   └── Sidebar.jsx
+├── index.css
+├── layout/
+│   └── RootLayout.jsx
+├── lib/
+├── main.jsx
+└── pages/
+    ├── HomePage.jsx
+    ├── LoginPage.jsx
+    └── ProfilePage.jsx
 ```
 
 ## 🚀 Getting Started
